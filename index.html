@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CriptoLive</title>
+    <link rel="shortcut icon" href="paid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet"></head>
+<body>
+    <header>
+        <nav>
+            <div><a href="#cards">INICIO</a></div>
+            <div><a href="#coins">CRYPTOS</a></div>
+            <div><a href="#frecuent-p">PREGUNTAS FRECUENTES</a></div>
+        </nav>
+    </header>
+    <main>
+       <section id="cards"> 
+            <article class="ft1">
+                <img src="src/ft1.jpg" alt="crypto">
+                <div class="cont-txt">
+                    <h1>¿Qué son las criptomonedas?</h1>
+                    <p>Las criptomonedas son activos digitales, en tanto monedas virtuales creadas a partir de un código.
+                        Incluso pueden ser definidas como una cadena de datos. Asimismo,
+                        hay quienes denominan a las criptomonedas como criptoactivos o criptodivisas;
+                        cualquiera sea el término que se utilice es válido.
+                    </p>
+                </div>
+            </article>
+            <article class="ft1">
+                <img src="src/foto1.jpg" alt="crypto">
+                <div class="cont-txt">
+                    <h2>¿Se puede considerar a la criptomoneda como una moneda?</h2>
+                    <p>La criptomoneda cumple con la función de una moneda,
+                        ya que se utiliza como medio de intercambio para adquirir bienes y servicios.
+                        Aunque es digital, utiliza métodos criptográficos para asegurar sus transacciones financieras, controlar la creación de nuevas unidades y verificar la transferencia de activos.
+                    </p>
+                </div>
+            </article>
+       </section> 
+
+        <!-- <div>
+            <select name="coin" id="money">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="ARS">ARS</option> 
+            </select>
+        </div> -->
+        <section id="coins">
+            <hgroup class="introduce">
+                <h3 class="secT">Precios de las principales criptomonedas hoy</h3>
+                <p class="date">Última actualización: <time class="datee" datetime=""></time> </p>
+            </hgroup>
+            <table>
+                <thead> 
+                    <tr>
+                        <th>
+                            <p>COIN</p>
+                        </th>
+                        <th>
+                            <p>PRICE</p>
+                        </th>
+                        <th>
+                            <p>LAST 24HS</p>
+                            <button
+                                class="toolB"
+                                style="anchor-name: --anchor2"
+                                popovertarget="tooltip">
+                                <p aria-hidden="true">?</p>
+                            </button>
+                            <div id="tooltip" class="tooltip" popover style="position-anchor: --anchor2">
+                                <p>Cambio del precio de la criptomoneda en las ultimas 24h</p>
+                            </div>
+                        </th>
+                        <th>
+                            <p>MARKET CAP 24h %</p>
+                            <button
+                                class="toolB"
+                                style="anchor-name: --anchor"
+                                popovertarget="tooltip2">
+                                <p aria-hidden="true">?</p>
+                            </button>
+                            <div id="tooltip2" class="tooltip" popover style="position-anchor: --anchor">
+                                <p>cambio del valor de las acciones de una criptomoneda en las últimas 24hs</p>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="bodyt">
+
+                </tbody>
+            </table>
+            <p class="cg"><a target="_blank" href="https://www.coingecko.com/">CoinGecko</a></p>
+        </section>
+
+        <section id="frecuent-p">
+            <hgroup class="introduce">
+                <h4 class="secT">Preguntas frecuentes</h4>
+            </hgroup>
+            <div class="txt-h">
+                <details open>
+                    <summary>¿Por qué varía el precio de esta criptomoneda?</summary>
+                    <p>El precio de bitcoin varía básicamente debido a la compra y venta de esta criptomoneda.
+                        Las dinámicas de oferta y demanda en un mercado bursátil basado en criptomonedas determinan cuál será su valor.
+                        Sin embargo, su cotización no es azarosa ni descontrolada, pues el protocolo tecnológico tiene programado que 
+                        solamente se podrán emitir 21 millones de bitcoins en total y son creados progresivamente por los mineros de la red,
+                        lo que de cierta forma regula la oferta de esta criptomoneda.
+                    </p>
+                </details>
+                <details>
+                    <summary>¿En qué contexto surgen las criptomonedas?</summary>
+                    <p>El bitcoin surge como una alternativa a un sistema financiero en decadencia absoluta.
+                        Se presenta como dinero sin banderas, sin regulaciones y comisiones abusivas de entidades,
+                        a través de una red descentralizada que no depende de un tercero (Estados o bancos).
+                        Las criptomonedas tienen una implicancia y trasfondo complejo, y no solo económico.
+                        Son el instrumento financiero, por lejos, más liberal que existe, y trae consigo impacto en el plano social,
+                        político, filosófico y más.
+                    </p>
+                </details>
+                <details>
+                    <summary>¿Qué implica que las criptomonedas no estén reguladas y que sean de control descentralizado?</summary>
+                    <p>La ausencia de regulaciones se refiere a que, en la actualidad,
+                        los reguladores globales recién están empezando a armar sus primeros esquemas para estos activos.
+                        El que sean de control descentralizado implica que no hay una contraparte sobre la que recaiga la administración del activo.
+                        Por ejemplo, si yo tengo una billetera virtual y pierdo mi contraseña de acceso, perdí el dinero,
+                        ya que no hay nadie que me la pueda restituir. Asimismo, no hay una contabilidad central,
+                        sino que cada uno de los actores del sistema tiene su propio libro de contabilidad diario
+                        y el chequeo es que todos los libros contables coincidan entre sí. Por eso es tan seguro.
+                    </p>
+                </details>
+                <details>
+                    <summary>¿Por qué no se emiten criptomonedas en físico?</summary>
+                    <p>Simplemente no tendría sentido. Bitcoin es una moneda digital basada en software criptográfico y una red descentralizada.
+                        Sus mayores beneficios nacen de esa características, pues la hacen rastreable, transportable, transparente, ecológica y
+                        rápida de enviar y recibir. Las monedas físicas que se hagan en su nombre son tan solo un souvenir.
+                        Además, sería irónico que una moneda de respaldo digital se emitiera en físico cuando el dinero en efectivo está cayendo en
+                        desuso a nivel mundial debido a la gran cantidad de desventajas que presenta.
+                    </p>
+                </details>
+                <details>
+                    <summary>¿Puede falsificarse o duplicarse?</summary>
+                    <p>De hecho, bitcoin sí puede falsificarse o duplicarse, pero quien lo haga no tendrá éxito,
+                        ya que este agente malicioso deberá convencer al resto de la red blockchain de que estas transacciones son auténticas.
+                        Al tener el listado de transacciones registrado y compartido con miles de servidores (nodos),
+                        resulta practicamente imposible colar una moneda falsa entre las otras.
+                        La red está configurada técnicamente para rechazar los ataques de este tipo contra ella.
+                        Si el atacante insiste en registrar una transacción fraudulenta, la red seguirá su camino y el atacante quedará aislado.
+                    </p>
+                </details>
+            </div>
+        </section>
+        
+        
+
+
+
+    </main>
+
+    <footer>
+        <div> <p>Page developed with API</p> <a target="_blank" href="https://www.coingecko.com/">CoinGecko</a>  </div>
+    </footer>
+    <script src="cripto.js"></script>
+</body>
+</html>
