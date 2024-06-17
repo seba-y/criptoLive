@@ -352,15 +352,11 @@ footer div{
     nav a{
         font-size: xx-small;
     }
-    th p, td p{
-        font-size: xx-small;
-    }
     table{
         padding: 5px 0;
     }
     tr{
         margin: 0;
-       
         column-gap: 5px;
         padding: 3px 10px;
     }
@@ -368,9 +364,6 @@ footer div{
          border-left: none;
         border-right: none;
         border-top: none;
-    }
-    tr img{
-        width: 30px;
     }
     summary{
         font-size: medium;
