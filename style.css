@@ -155,7 +155,7 @@ select{
 
 table {
     width: 100%;
-    min-height: 1900px;
+    min-height: 1000px;
     padding: 15px;
     border-radius: 5px;
     border: 1px solid light-dark(var(--border-ngrey), var(--border-grey));
