@@ -155,7 +155,7 @@ select{
 
 table {
     width: 100%;
-    min-height: 1900px;
+    min-height: 1000px;
     padding: 15px;
     border-radius: 5px;
     border: 1px solid light-dark(var(--border-ngrey), var(--border-grey));
@@ -352,9 +352,6 @@ footer div{
     nav a{
         font-size: xx-small;
     }
-    th p, td p{
-        font-size: xx-small;
-    }
     table{
         padding: 5px 0;
     }
@@ -368,9 +365,6 @@ footer div{
          border-left: none;
         border-right: none;
         border-top: none;
-    }
-    tr img{
-        width: 30px;
     }
     summary{
         font-size: medium;
