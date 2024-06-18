@@ -37,7 +37,7 @@ myCryptos(data =>{
       <tr class='coin'>
           <td class="firstch">
                     <p>${coin.market_cap_rank}</p>
-                    <img alt="${coin.name}" src='${coin.image}'> 
+                    <img alt="${coin.name}" src='${coin.image}' loading="lazy"> 
                     <p>${coin.symbol.toUpperCase()}</p>
                     <p class="name">${coin.name}</p>
           </td>
@@ -47,7 +47,7 @@ myCryptos(data =>{
                                    : prC24} 
                 </p>
           </td>
-          <td> <p ${mCap24.startsWith('-') ?`class='percent-n'` : `class='percentage'`}>
+          <td> <p ${mCap24.startsWith('-') ?`class='percent percent-n'` : `class='percent percentage'`}>
                    ${mCap24.startsWith('-') == true ? ('▼'+mCap24) : ('▲+'+mCap24)}%
                 </p>
           </td>

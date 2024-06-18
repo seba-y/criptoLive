@@ -202,21 +202,22 @@ td{
     box-shadow: 0 0 3px grey;
     width: 101%;
 }
-.percentage{
+
+.percent{
     padding: 2px 5px;
     border-radius: 5px;
+    background-color: #ffffff;
+}
+.percentage{
     border: 1px solid var(--green-dark);
     box-shadow: 0 0 3px var(--green-ligth);
     color: var(--green-dark);
-    background-color: #ffffff;
+    
 }
 .percent-n{ 
-    padding: 2px 5px;
-    border-radius: 5px;
     border: 1px solid var(--red-dark);
     box-shadow: 0 0 3px var(--red-ligth);
     color: var(--red-dark);
-    background-color: #ffffff;
 }
 
 .cg{
@@ -333,7 +334,6 @@ footer div{
     .ft1 img {
         border-radius: 0;
     }
-    .secT{ font-size: large;}
     tr img { width: 40px;}
     table{ border-right: none; border-left: none;
              padding-top: 0;}
