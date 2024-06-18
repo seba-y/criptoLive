@@ -196,12 +196,7 @@ td{
 
 .name{ width: 100%; }
 
-
 .coin{ border: 1px solid light-dark(var(--violet-b), var(--violet));}
-.coin:hover{
-    box-shadow: 0 0 3px grey;
-    width: 101%;
-}
 
 .percent{
     padding: 2px 5px;
@@ -360,11 +355,14 @@ footer div{
         border-top: none;
     }
     summary{
-        font-size: medium;
+        font-size: large;
         margin: 0;
     }
+    details{
+        padding: 20px 5px;
+    }
     details p{
-        font-size: small;
+        font-size: medium;
         padding: 10px;
     }
 }
