@@ -102,6 +102,7 @@ main{ padding: 0 2%;   }
 .ft1 img{
     z-index: -1;
     height: 100%;
+    min-height: 200px;
     max-height: 300px;
     object-fit: cover;
     border-top-left-radius: 10px;
