@@ -152,6 +152,14 @@ table {
     border-radius: 5px;
     border: 1px solid light-dark(var(--border-ngrey), var(--border-grey));
 }
+thead{
+    position: sticky;
+    top: 0;
+    background-color: light-dark(var(--Wback), var(--Bback));
+}
+.border-tr{
+    border-bottom: 1px solid light-dark(#0000002b, #ffffff2b);
+}
 
 tr{
     display: grid;
@@ -308,7 +316,7 @@ footer div{
         font-size: small;
     }
     .secT {
-        font-size: x-large;
+        font-size: xx-large;
     }
     .introduce{ padding: 5px 15px; margin: 0;}
     th p, td p{
@@ -343,11 +351,13 @@ footer div{
     }
     table{
         padding: 5px 0;
+        border-radius: 0;
     }
     tr{
         margin: 0;
         column-gap: 5px;
         padding: 3px 10px;
+        border-radius: 0;
     }
     .coin{
          border-left: none;
@@ -364,5 +374,8 @@ footer div{
     details p{
         font-size: medium;
         padding: 10px;
+    }
+    .txt-h{
+        border-radius: 0;
     }
 }
