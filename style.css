@@ -208,6 +208,7 @@ td{
     border: 1px solid var(--green-dark);
     box-shadow: 0 0 3px var(--green-ligth);
     color: var(--green-dark);
+    background-color: #ffffff;
 }
 .percent-n{ 
     padding: 2px 5px;
@@ -215,6 +216,7 @@ td{
     border: 1px solid var(--red-dark);
     box-shadow: 0 0 3px var(--red-ligth);
     color: var(--red-dark);
+    background-color: #ffffff;
 }
 
 .cg{

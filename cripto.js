@@ -1,12 +1,9 @@
-const ctypto = document.getElementById('crypto');
 const bodyt = document.querySelector('.bodyt');
-const money = document.getElementById('money');
-const datee = document.querySelector('.datee')
+const datee = document.querySelector('.datee');
 
 
 function fecha(){
   let hoy = new Date();
-  // const datehoy =  hoy.getFullYear();
   datee.textContent += `${hoy.getDate()}/${hoy.getMonth()+1}/${hoy.getFullYear()} | ${hoy.getHours()}:${hoy.getMinutes()}:${hoy.getSeconds()}`; 
 }
 fecha();
@@ -31,7 +28,6 @@ function find(str) {
 }
 
 myCryptos(data =>{
-  console.log(data);
   data.forEach((coin) => {
     const pr = coin.current_price.toLocaleString();
     const prC24 = coin.price_change_24h.toLocaleString();
