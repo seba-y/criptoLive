@@ -126,13 +126,6 @@ main{ padding: 0 2%;   }
 
 
 
-select{
-    background-color: light-dark(var(--Wsec) , var(--Bsec));
-    border: none;
-    border-right: 1px solid #ffffff80;
-}
-
-
 
 .introduce{
     display: flex;
@@ -357,7 +350,6 @@ footer div{
     }
     tr{
         margin: 0;
-       
         column-gap: 5px;
         padding: 3px 10px;
     }
