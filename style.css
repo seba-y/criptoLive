@@ -241,20 +241,29 @@ details {
     padding: 5px;
     border-bottom: 1px solid light-dark(var(--violet-b), var(--violet)) ;
 }
-
+.container-sum img{
+    width: 35%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.container-sum{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: light-dark(#ffff,#1c1b1b) ;
+}
 summary {
     margin: 15px 0;
     padding: 10px;
     font-size: large;
-    list-style-type: disc;
-    
+    list-style-type: disc;   
 }
 
-details p{
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: light-dark(#ffff,#1c1b1b) ;
+.container-sum p{
+    font-size: large;
+    padding: 5px;
 }
 
 
@@ -275,7 +284,9 @@ details p{
 }
 .tooltip {
     padding: 5px;
-    inset-area: top;
+    inset-area: left;
+    margin-top: -60px;
+    width: 200px;
     border: none;
     border-radius: 5px;
     background-color: light-dark(#ffffff,#000000fa) ;
@@ -295,7 +306,11 @@ footer div{
     padding-top: 10px;
 }
 
-
+@media (max-width:900px){
+    .container-sum p{
+       font-size: medium;
+     }
+}
 
 @media (max-width:800px) {
    
@@ -325,6 +340,13 @@ footer div{
     }
     nav a {
         font-size: x-small;
+    }
+    .container-sum{
+        flex-direction: column;
+    }
+    .container-sum img{
+        width: 100%;
+        max-height: 250px;
     }
 }
 @media (max-width:600px){
@@ -369,7 +391,7 @@ footer div{
     details{
         padding: 20px 5px;
     }
-    details p{
+    .container-sum p{
         font-size: medium;
         padding: 10px;
     }
