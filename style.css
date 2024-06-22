@@ -348,6 +348,9 @@ footer div{
         width: 100%;
         max-height: 250px;
     }
+    .container-sum p {
+        padding: 10px 0;
+    }
 }
 @media (max-width:600px){
     main{   
@@ -393,7 +396,6 @@ footer div{
     }
     .container-sum p{
         font-size: medium;
-        padding: 10px;
     }
     .txt-h{
         border-radius: 0;
