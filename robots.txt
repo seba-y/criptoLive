@@ -5,3 +5,5 @@
 user-agent: *
 Disallow: 
 Disallow: /src/
+Disallow: https://criptolive.vercel.app
+Disallow: /cripto.js
