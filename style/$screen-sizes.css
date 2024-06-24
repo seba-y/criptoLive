@@ -1,0 +1,89 @@
+@media (max-width:900px){
+    .container-sum p{
+       font-size: medium;
+     }
+}
+
+@media (max-width:800px) {
+   
+    #cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ft1{
+        width: 100%;
+    }
+    .ft1 img{
+        max-height: 250px;
+    }
+
+    h1, h2 {
+        font-size: large;
+    }
+    .cont-txt p {
+        font-size: small;
+    }
+    .secT {
+        font-size: xx-large;
+    }
+    .introduce{ padding: 5px 15px; margin: 0;}
+    th p, td p{
+        font-size: small;
+    }
+    nav a {
+        font-size: x-small;
+    }
+    .container-sum{
+        flex-direction: column;
+    }
+    .container-sum img{
+        width: 100%;
+        max-height: 250px;
+    }
+}
+@media (max-width:600px){
+    main{   
+        padding: 0;
+    }
+    .ft1{
+        border-radius: 0;
+        border-right: none; border-left: none;
+    }
+    .ft1 img {
+        border-radius: 0;
+    }
+    tr img { width: 40px;}
+    table{ border-right: none; border-left: none;
+             padding-top: 0;}
+    .txt-h{ border-right: none; border-left: none; }
+    .data, time{
+        font-size: xx-small;
+    }
+}
+@media (max-width:450px){
+    table{
+        padding: 5px 0;
+        border-radius: 0;
+    }
+    tr{
+        margin: 0;
+        column-gap: 5px;
+        padding: 3px 10px;
+        border-radius: 0;
+    }
+    .coin{
+         border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    summary{
+        font-size: large;
+        margin: 0;
+    }
+    details{
+        padding: 20px 5px;
+    }
+    .txt-h{
+        border-radius: 0;
+    }
+}
