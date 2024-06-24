@@ -5,5 +5,7 @@
 user-agent: *
 Disallow: 
 Disallow: /src/
-Disallow: *https://criptolive.vercel.app
+Disallow: *coingecko.com
 Disallow: /cripto.js
+Disallow: *chrome-extension://dggmapjanngfjjakfgeoegfmgpmcamfh/jquery-3.6.0.js
+Disallow: *chrome-extension://dggmapjanngfjjakfgeoegfmgpmcamfh/root.js
