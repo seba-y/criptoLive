@@ -3,7 +3,6 @@
 #
 #
 user-agent: *
-Disallow: 
 Disallow: /src/
 Disallow: *coingecko.com
 Disallow: /cripto.js
