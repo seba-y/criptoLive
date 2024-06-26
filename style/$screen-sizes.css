@@ -2,9 +2,6 @@
     .container-sum p{
        font-size: medium;
      }
-     .ft1 img{
-        height: 250px;
-    }
 }
 
 @media (max-width:800px) {
