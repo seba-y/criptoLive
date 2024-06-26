@@ -37,7 +37,7 @@ myCryptos(data =>{
       <tr class='coin'>
           <td class="firstch">
                     <p>${coin.market_cap_rank}</p>
-                    <img alt="${coin.name}" src='${coin.image}' loading="lazy"> 
+                    <img alt="${coin.name}" src='${coin.image}' loading="lazy" width="50px" height="50px"> 
                     <p>${coin.symbol.toUpperCase()}</p>
                     <p class="name">${coin.name}</p>
           </td>
