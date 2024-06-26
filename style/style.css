@@ -89,6 +89,7 @@ main{ padding: 0 2%;   }
 .date, time { 
     font-size: x-small ;
     font-style: italic;
+    font-weight: 100;
 }
 
 table {
@@ -114,7 +115,6 @@ tr{
     margin-top: 10px;
     padding: 5px 10px;
     column-gap: 20px;    
-    border-radius: 5px;
 }
 tr img{
     border-radius: 50%;
@@ -126,6 +126,9 @@ th{
     justify-content: space-between;
     text-align: start;
     border-right: 1px solid light-dark(#0000002b, #ffffff2b) ;
+}
+th p, td p{
+    font-weight: 200;
 }
 
 
@@ -155,18 +158,15 @@ td{
 .percent{
     padding: 2px 5px;
     border-radius: 5px;
-    background-color: #ffffff;
 }
 .percentage{
     border: 1px solid var(--green-dark);
     box-shadow: 0 0 3px var(--green-ligth);
-    color: var(--green-dark);
     
 }
 .percent-n{ 
     border: 1px solid var(--red-dark);
     box-shadow: 0 0 3px var(--red-ligth);
-    color: var(--red-dark);
 }
 
 .cg{

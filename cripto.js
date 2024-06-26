@@ -1,10 +1,10 @@
 const bodyt = document.querySelector('.bodyt');
 const datee = document.querySelector('.datee');
 
-
 function fecha(){
   let hoy = new Date();
-  datee.textContent += `${hoy.getDate()}/${hoy.getMonth()+1}/${hoy.getFullYear()} | ${hoy.getHours()}:${hoy.getMinutes()}:${hoy.getSeconds()}`; 
+   datee.textContent = `${hoy.getDate()}/${hoy.getMonth()+1}/${hoy.getFullYear()} | ${hoy.getHours()}:${hoy.getMinutes()}:${hoy.getSeconds()}`;
+  datee.setAttribute("datetime",`${hoy.getDate()}-${hoy.getMonth()+1}-${hoy.getFullYear()}`) ; 
 }
 fecha();
 

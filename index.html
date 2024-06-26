@@ -5,8 +5,8 @@
     <meta name="viewport" 
           content="width=device-width, initial-scale=1.0">
     <meta name="description" 
-          content="CriptoLive es una simple página que contiene el precio de criptomonedas
-                    en tiempo real y respuestas a dudas sobre criptomonedas">
+          content="CriptoLive es una simple página para mostrar el precio actualizado de las
+                    principales criptomonedas, y respuestas a dudas sobre criptomonedas">
     <title>CriptoLive</title>
     <link rel="shortcut icon"
           href="paid.svg" 
@@ -15,20 +15,37 @@
           href="style/style.css">
     <link rel="stylesheet"
           href="style/$screen-sizes.css">
-    <link rel="preconnect" href="https://api.coingecko.com">
+    <link rel="preconnect" 
+          href="https://api.coingecko.com">
+    <!--⭣ ⭣ FONT ⭣ ⭣-->          
+    <link rel="preconnect" 
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com" 
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+          rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <div><a href="#cards">INICIO</a></div>
-            <div><a href="#coins">CRYPTOS</a></div>
-            <div><a href="#frecuent">PREGUNTAS FRECUENTES</a></div>
+            <div>
+                <a href="#cards">INICIO</a>
+            </div>
+            <div>
+                <a href="#coins">CRYPTOS</a> 
+            </div>
+            <div> 
+                <a href="#frecuent">PREGUNTAS FRECUENTES</a>
+            </div>
         </nav>
     </header>
     <main>
        <section id="cards"> 
             <article class="ft1">
-                <img src="src/ft1.webp" alt="crypto" width="640" height="360">
+                <img src="src/ft1.webp" alt="crypto" 
+                       width="640"
+                        height="360">
                 <div class="cont-txt">
                     <h1>¿Qué son las criptomonedas?</h1>
                     <p>Las criptomonedas son activos digitales, en tanto monedas virtuales creadas a partir de un código.
@@ -39,7 +56,9 @@
                 </div>
             </article>
             <article class="ft1">
-                <img src="src/foto1.webp" alt="crypto" width="640" height="360">
+                <img src="src/foto1.webp" alt="crypto"
+                       width="640"
+                        height="360">
                 <div class="cont-txt">
                     <h2>¿Se puede considerar a la criptomoneda como una moneda?</h2>
                     <p>La criptomoneda cumple con la función de una moneda,
@@ -53,7 +72,9 @@
         <section id="coins">
             <hgroup class="introduce">
                 <h3 class="secT">#Precios de las principales criptomonedas hoy</h3>
-                <p class="date">Última actualización: <time class="datee" datetime=""></time> </p>
+                <p class="date">
+                    Última actualización: <time class="datee" datetime></time>
+                </p>
             </hgroup>
             <table >
                 <thead> 
@@ -68,11 +89,13 @@
                             <p>24HS</p>
                             <button
                                 class="toolB"
-                                style="anchor-name: --anchor2"
-                                popovertarget="tooltip">
+                                 style="anchor-name: --anchor2"
+                                  popovertarget="tooltip">
                                 <p aria-hidden="true">?</p>
                             </button>
-                            <div id="tooltip" class="tooltip" popover style="position-anchor: --anchor2">
+                            <div popover
+                                  id="tooltip" class="tooltip"
+                                   style="position-anchor: --anchor2">
                                 <p>Cambio del precio de la criptomoneda en las ultimas 24h.</p>
                             </div>
                         </th>
@@ -80,11 +103,13 @@
                             <p>MARKET CAP 24h %</p>
                             <button
                                 class="toolB"
-                                style="anchor-name: --anchor"
-                                popovertarget="tooltip2">
+                                 style="anchor-name: --anchor"
+                                  popovertarget="tooltip2">
                                 <p aria-hidden="true">?</p>
                             </button>
-                            <div id="tooltip2" class="tooltip" popover style="position-anchor: --anchor">
+                            <div popover 
+                                  id="tooltip2" class="tooltip"
+                                   style="position-anchor: --anchor">
                                 <p>cambio del valor de las acciones de una criptomoneda en las últimas 24h.</p>
                             </div>
                         </th>
@@ -95,8 +120,9 @@
                 </tbody>
             </table>
             <div  class="cg">
-                
-                <a target="_blank" href="https://www.coingecko.com" rel="preconnect">CoinGecko</a>
+                <a target="_blank"
+                    href="https://www.coingecko.com">CoinGecko
+                </a>
             </div>
         </section>
 
@@ -177,7 +203,9 @@
     </main>
 
     <footer>
-        <div> <p>Page developed by Sebastian Rapetti</p> </div>
+        <div> 
+            <p>Page developed by Sebastian Rapetti</p> 
+        </div>
     </footer>
     <script src="cripto.js"></script>
 </body>
