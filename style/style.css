@@ -19,11 +19,8 @@ nav{
 
 nav div{
     margin-bottom: 8px;
-    font-size: x-small;
+    font-size: large;
 }
-
-nav div:hover{  border-bottom: 1px solid #8820ff; }
-
 
         /* MAIN */
 
@@ -82,8 +79,9 @@ main{ padding: 0 2%;   }
 
 .secT{
     width: max-content;
-    border-bottom: 1px solid light-dark(#000000,#ffffff);
+    border-bottom: 3px solid light-dark(#000000,#ffffff);
     font-size: xx-large;
+    padding-bottom: 5px;
 }
 
 .date, time { 
@@ -186,18 +184,11 @@ details {
     padding: 5px;
     border-bottom: 1px solid light-dark(var(--violet-b), var(--violet)) ;
 }
-.container-sum img{
-    width: 35%;
-    object-fit: cover;
-    border-radius: 5px;
-}
 .container-sum{
-    display: flex;
-    gap: 10px;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
-    background-color: light-dark(#ffff,#1c1b1b) ;
+    background-color: light-dark(#ffff,#212020) ;
 }
 summary {
     margin: 15px 0;
@@ -223,9 +214,6 @@ summary {
     color: #f9f500;
     opacity: .4;
 }
-.toolB p:hover {
-    opacity: 1;
-}
 .tooltip {
     padding: 5px;
     inset-area: left;
@@ -249,3 +237,9 @@ footer div{
     justify-content: center;
     padding-top: 10px;
 }
+/* Hover*/
+
+.toolB p:hover {
+    opacity: 1;
+}
+nav div:hover{  border-bottom: 1px solid #8820ff; }
