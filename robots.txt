@@ -4,5 +4,5 @@
 #
 user-agent: *
 Disallow: /src/
-Disallow: *coingecko.com
+Disallow: *https://www.coingecko.com
 Disallow: /cripto.js
