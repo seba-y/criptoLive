@@ -43,6 +43,9 @@
     .data, time{
         font-size: xx-small;
     }
+    .secT {
+        font-size: x-large;
+    }
 }
 @media (max-width:450px){
     table{
