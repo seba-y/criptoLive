@@ -18,9 +18,6 @@
         font-size: xx-large;
     }
     .introduce{ padding: 5px 15px; margin: 0;}
-    th p, td p{
-        font-size: small;
-    }
     nav div {
         font-size: small;
     }
@@ -45,6 +42,9 @@
     }
     .secT {
         font-size: x-large;
+    }
+    th p, td p{
+        font-size: small;
     }
 }
 @media (max-width:450px){
