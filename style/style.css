@@ -73,6 +73,10 @@ main{ padding: 0 2%;   }
     border-bottom: 1px solid light-dark(var(--border-ngrey), var(--border-grey));
 }
 
+#coins{
+    max-width: 1300px;
+}
+
 .introduce{
     display: flex;
     justify-content: space-between;
