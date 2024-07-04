@@ -1,6 +1,5 @@
-
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url(var.css);
+
 section{  margin-top: 6rem;  }
 
         /* HEADER --- --- --- --- --- --- --- --- --- --- --- --- --- */
@@ -22,9 +21,7 @@ nav div{
     margin-bottom: 8px;
     font-size: large;
 }
-
         /* MAIN */
-
 main{ padding: 0 2%;   }
 
 #cards{ 
@@ -69,7 +66,6 @@ main{ padding: 0 2%;   }
     padding: 0 15px;
     bottom: 10px;
     font-size: x-large;
-    /* text-shadow: 2px 2px 1px var(--violet); */
     border-bottom: 1px solid light-dark(var(--border-ngrey), var(--border-grey));
 }
 
@@ -137,9 +133,6 @@ th p, td p{
     font-size: large;
 }
 
-
-
-
 td{ 
     display: flex;
     align-items: center;    
@@ -147,7 +140,6 @@ td{
     height: 100%;
     font-size: 25px;    
 }
-
 
 .firstch{
     display: flex;
@@ -168,7 +160,6 @@ td{
 .percentage{
     border: 1px solid var(--green-dark);
     box-shadow: 0 0 3px var(--green-ligth);
-    
 }
 .percent-n{ 
     border: 1px solid var(--red-dark);
@@ -179,8 +170,6 @@ td{
     margin-top: 5px;
     text-align: center;
 }
-
-
 
 .txt-h{
     padding: 10px;
@@ -201,17 +190,13 @@ details {
 summary {
     margin: 15px 0;
     padding: 10px;
-    font-size: large;
+    font-size: x-large;
     list-style-type: disc;   
 }
 
 .container-sum p{
     font-size: large;
 }
-
-
-
-
 .toolB {
     margin-right: 5px;
     background: none;
