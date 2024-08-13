@@ -4,7 +4,7 @@
 
 ## Sobre la página 
 
-- Preguntas frecuentes.
+- Preguntas frecuentes sobre criptomonedas.
 - top 20 criptos.
 - diseño claro y oscuro.
 - responsive
